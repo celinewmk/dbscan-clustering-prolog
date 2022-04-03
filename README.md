@@ -1,4 +1,4 @@
-# Merge step of DCSCAN algorithm using Prolog
+# Merge step of DBSCAN algorithm using Prolog
 
 ## Instructions
 
@@ -15,7 +15,7 @@ The parallel DBSCAN algorithm extracts the clusters of a set by subdividing the 
 overlapping partitions. If the partitions overlap with each other, it implies that some points (at the periphery of the partitions) might belong to more than one partition. Consequently, some clusters may contain the same point(s) and are then said to intersect. In this case, these clusters must be merged
 because they should in fact constitute one large cluster covering more than one partition. The merging can be simply done by changing the label of one of the clusters to the one of the second. 
 
-## Alogrithm explanation
+## Algorithm explanation
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71091659/161274255-009e603e-bf05-40c9-8aee-fca4c2aa1870.jpg"
@@ -30,4 +30,4 @@ cluster label of all points in ClusterList having label A will be changed to B a
 points having label C. Finally, the points in B are inserted into the ClusterList. 
   
   
-From CSI2520 (Programming Paradigms) Course
+From CSI2520 (Programming Paradigms) Course - Prolog Project
