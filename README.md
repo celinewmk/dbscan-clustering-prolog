@@ -10,7 +10,7 @@
 
 ## Description
 
-This implemantation focuses on the third step of the parallel DBSCAN algorithm. We will merge intersecting clusters from adjacent partitions.
+This implementation focuses on the third step of the parallel DBSCAN algorithm. We will merge intersecting clusters from adjacent partitions.
 The parallel DBSCAN algorithm extracts the clusters of a set by subdividing the region into a number of
 overlapping partitions. If the partitions overlap with each other, it implies that some points (at the periphery of the partitions) might belong to more than one partition. Consequently, some clusters may contain the same point(s) and are then said to intersect. In this case, these clusters must be merged
 because they should in fact constitute one large cluster covering more than one partition. The merging can be simply done by changing the label of one of the clusters to the one of the second. 
