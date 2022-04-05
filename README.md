@@ -29,5 +29,24 @@ These 7 points will constitute the intersection set I and the labels of I are A 
 cluster label of all points in ClusterList having label A will be changed to B and same for the
 points having label C. Finally, the points in B are inserted into the ClusterList. 
   
+## Results
+Here is the list of groups obtained after merging.
+There were 25 groups initially, after the merge step there are 21 left.
+
+Cluster ID before merge step:
+  
+[65000001,65000002,65000003,65000004,74000001,74000002,74000003,75000001,75000002,
+ 76000001,76000002,76000004,76000003,84000001,84000003,84000002,84000004,85000004,
+ 85000001,85000002,85000003,85000007,85000005,85000006,86000001]
+
+Cluster ID after merge step:
+  
+[65000001,65000002,65000003,65000004,74000001,74000002,75000002,76000001,76000002,
+ 76000004,76000003,84000003,84000002,84000004,85000004,85000001,85000002,85000003,  
+  85000007,85000005,86000001]
+
+Clusters ID that were removed: 74000003,75000001,84000001,85000006.
+  
+___________________________________________________________________
   
 From CSI2520 (Programming Paradigms) Course - Prolog Project
